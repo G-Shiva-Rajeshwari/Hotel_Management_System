@@ -9,9 +9,9 @@ import java.util.Scanner;
 
 
 public class reservationSys {
-	 private static final String url="jdbc:postgresql://localhost:5432/HotelDB";
+	 private static final String url="jdbc:postgresql://localhost:5432/DBfilename";
      private static final String username ="postgres";
-     private static final String password="shiva99";
+     private static final String password="password";
 	public static void main(String[] args) {
        
        try{
@@ -266,4 +266,5 @@ public class reservationSys {
        System.out.println();
        System.out.println("ThankYou For Using Hotel Reservation System!!!");
    }
+
 }
